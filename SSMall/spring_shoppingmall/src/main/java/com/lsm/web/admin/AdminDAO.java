@@ -24,4 +24,10 @@ public class AdminDAO {
 		return session.selectOne("admin.adminLogin", vo);
 	}
 	
+	/**
+	 * 연습 관리자 정보 가져오기
+	 * */
+	public AdminVO adminLoginInfo(AdminVO vo) {
+		return session.selectOne("admin.adminLoginInfo", vo);
+	}
 }

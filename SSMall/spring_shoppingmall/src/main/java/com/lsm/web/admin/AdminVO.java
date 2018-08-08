@@ -7,6 +7,15 @@ public class AdminVO {
 	private String pw;
 	private String name;
 	private int point;
+	private String nickName;
+	
+	
+	public String getNickName() {
+		return nickName;
+	}
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
+	}
 	
 	public int getPoint() {
 		return point;

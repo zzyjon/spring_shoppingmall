@@ -22,4 +22,12 @@ public class AdminService {
 	public AdminVO adminLogin(AdminVO vo) {
 		return dao.adminLogin(vo);
 	}
+	
+	/**
+	 * 연습 관리자 로그인 
+	 * */
+	public AdminVO adminLoginInfo(AdminVO vo) {
+		return dao.adminLoginInfo(vo);
+	}
+	
 }
